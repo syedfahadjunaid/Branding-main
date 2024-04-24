@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;1,600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --main-heading:#191c1f;
+  --primary-color1:#334F9e;
+  --primary-color2:#61b946;
+  --backgound-color:#ffffff;
+  --card-color:#f6f6f6;
+  --card-color1:#fff;
+  --foter_color:#0a142f;
+  --privicy-color:#343a40;
+  --whitesmoke-color:#f5f5f5;
+  --hamburger-color:#111;
+  --icon-color:#f6f6f6;
+  --subHeading-color:#191c1f;
+  --cardtext-color:#343A40;
+  --borderBottom-color:#334F9E;
+}
+.light_theme{
+  --main-heading:#191c1f;
+  --primary-color1:#334F9e;
+  --primary-color2:#61b946;
+  --backgound-color:#ffffff;
+  --card-color:#f6f6f6;
+  --card-color1:#fff;
+  --foter_color:#0a142f;
+  --privicy-color:#343a40;
+  --whitesmoke-color:#111;
+  --hamburger-color:#111;
+  --icon-color:#f6f6f6;
+  --subHeading-color:#191c1f;
+  --cardtext-color:#343A40;
+  --borderBottom-color:#334F9E;
+
+}
+.dark_theme{
+  --main-heading:#ffffff;
+  --primary-color1:#334F9e;
+  --primary-color2:#61b946;
+  --backgound-color:#212529 ;
+  --card-color:#343A40;
+  --foter_color:#0a142f;
+  --privicy-color:#343a40;
+  --hamburger-color:#fff;
+  --icon-color:#343A40;
+  --subHeading-color:rgb(136,136,136);
+  --cardtext-color:#343A40;
+  --borderBottom-color:#fff;
+}
+body {
+  margin: 0;
+  font-family:  sans-serif,-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--backgound-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p{
+  font-size: 18px;
+  font-weight: 500;
+
+}
+@media(max-width:600px){
+  h6{
+    font-size: 25px !important;
+  }
+  p{
+    font-size: 18px;
+  }
+}

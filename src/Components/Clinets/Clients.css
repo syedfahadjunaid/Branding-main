@@ -1,0 +1,210 @@
+.clients {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  width: 100%;
+  position: relative;
+  margin-bottom: 25px;
+  background-color: var(--card-color);
+  padding: 15px 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.clients_header{
+  width: 80%;
+}
+.clients_header > h5 {
+  font-size: 45px;
+  font-weight: 500;
+  color: var(--main-heading);
+}
+.clients_img {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+.clients_img_img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  position: relative;
+}
+.clients_img_img > span {
+  border-radius: 50%;
+  /* border: 1px solid black; */
+  width: 235px;
+  height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  top: 70px;
+}
+.clients_img_img > span > p {
+  border-radius: 50%;
+}
+.text > img {
+  height: 160px;
+  object-fit: contain;
+  margin-bottom: -228px;
+}
+.reactcurved {
+  position: fixed;
+  top: 50px;
+  /* display: none; */
+}
+text {
+  visibility: hidden;
+}
+svg:hover > text {
+  visibility: visible;
+  transition-delay: 0.5s;
+}
+.clients_img_img > span:hover.text {
+  visibility: visible;
+}
+.clients_img_img > span:hover {
+  cursor: pointer;
+}
+.first_span {
+  margin-bottom: 170px;
+}
+.first_span > img {
+  height: 100px;
+  margin-bottom: -200px;
+}
+.first_second_span > img {
+  height: 140px;
+  margin-bottom: -220px;
+}
+.third_span {
+  margin-top: -76px;
+}
+.first_forth_span > img {
+  height: 135px;
+  margin-bottom: -220px;
+}
+.second_first_span {
+  margin-top: -250px;
+}
+.second_second_span {
+  margin-top: -115px;
+}
+.second_third_span {
+  margin-top: -175px;
+}
+.second_third_span > img {
+  height: 110px;
+  margin-bottom: -200px;
+}
+.second_forth_span {
+  margin-top: -85px;
+}
+.second_forth_span > img {
+  height: 100px;
+  margin-bottom: -200px;
+}
+.third_first_span {
+  margin-top: -100px;
+}
+.third_first_span > img {
+  height: 110px;
+  margin-bottom: -205px;
+}
+.third_second_span {
+  margin-top: 10px;
+}
+.third_third_span {
+  margin-top: 10px;
+}
+.third_third_span > img {
+  height: 90px;
+  margin-bottom: -200px;
+}
+.third_forth_span {
+  margin-top: 10px;
+}
+.clients_card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: url("../../images/Mask group map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  background-color: var( --backgound-color);
+}
+.swiper-pagination-bullets {
+  display: none;
+}
+.clients_arrow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clientarrowicon {
+  font-size: 45px !important;
+  cursor: pointer;
+}
+.clientarrowicon_left {
+  color: #cfd7ff !important;
+}
+.clientarrowicon_right {
+  color: #97a8ff !important;
+}
+.swiper-slide{
+  width: fit-content !important;
+  margin-right: 50px !important;
+  margin-left: 50px !important;
+}
+.swiper-button-next, .swiper-button-prev {
+  text-rendering: auto;
+}
+.alice-carousel__prev-btn, .alice-carousel__next-btn{
+  display: none !important;
+}
+.alice-carousel{
+  width: 96% !important ;
+}
+@media (max-width: 600px) {
+  .clients {
+    width: 100% !important;
+  }
+  .clients_img_img {
+    width: 100% !important;
+  }
+  .carousel.carousel-slider {
+    width: 100% !important;
+    /* position: absolute !important; */
+  }
+  .clients_header > h5 {
+    font-size: 25px;
+  }
+  .clients_card{
+    width: 100%;
+  }
+  .clients_card{
+    background-image: url("../../images/fcbjgjsedgjgjsdgjsdig dsfug hu-01 2.png");
+    background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  }
+  .alice-carousel{
+    width: 100% !important;
+  }
+}

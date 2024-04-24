@@ -1,0 +1,25 @@
+.smallbanner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 450px;
+  align-items: center;
+  justify-content: center;
+}
+.smallbanner > img {
+  height: 400px;
+  width: 400px;
+
+  object-fit: contain;
+}
+@media screen and (max-width: 600px) {
+  .smallbanner{
+    width: 300px;
+    height: 300px;
+  }
+  .smallbanner > img {
+    height: 300px;
+    width: 300px;
+  }
+}

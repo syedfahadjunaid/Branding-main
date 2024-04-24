@@ -1,0 +1,111 @@
+*{
+    --main-color:#191C1F;
+
+}
+.webcard{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 300px;
+    /* border: 1px solid #61B946; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    /* transition: 0s flx ; */
+    background-color: var(--backgound-color);
+    color: var( --main-heading);
+    /* -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    
+    -moz-transition-delay: 0.5s;
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s; */
+  
+}
+
+/* .webcard:hover {
+    color: #fff !important;
+} */
+
+.webcard_details>h6{
+    /* color: #191C1F; */
+    font-size: 28px;
+    font-weight: 500;
+    
+    padding: 0px 5px;
+    /* text-align: justify; */
+}
+.webcard_details>p{
+    /* color: #191C1F; */
+    font-size: 16px;
+    font-weight: 400;
+
+    padding: 5px 5px;
+
+    /* height: 170px; */
+    overflow: hidden;
+    text-align: justify;
+}
+.webcard_link{
+    text-decoration: none;
+    color: var(--main-color) !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+   
+    margin-bottom: -15px;margin-left: 5px;
+}
+.webcard_link_arrow{
+    /* background-color: #111; */
+    /* color: #fff; */
+    margin-left: 10px;
+}
+.webcard_img{
+height: 40px;
+object-fit: contain;
+/* position: absolute;
+top: 10px;
+left: 10px; */
+margin-right: 10px;
+flex: 0.25;
+}
+.webcard_details{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0.9;
+    position: relative;
+   
+}
+.webcard:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #61B946;
+   color:#fff !important;
+    /* flex-direction: column; */
+    transition-duration: 0.5s;
+  
+  
+}
+.webcard:hover+.webcard_link{
+    color: #fff;
+}
+
+.webcard_details>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 5px;
+}
+.webcard:hover>.webcard_details{
+    /* padding: 5px 15px ; */
+}

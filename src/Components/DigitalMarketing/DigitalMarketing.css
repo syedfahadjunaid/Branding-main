@@ -1,0 +1,195 @@
+.digitalmarketing{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-heading);
+}
+.digitalmarketing_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: 500;
+    color: var(--main-heading);
+}
+.digitalmarketing_header{
+    font-size: 45px;
+    font-weight: 500;
+}
+.digitalmarketing_banner{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.digitalmarketing_banner_img{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    position: absolute;
+    top: 140px;
+}
+.digitalmarketing_banner_img>span>img{
+    border-radius: 50%;
+}
+.digitalmarketing_banner_img>span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.digitalmarketing_banner_img>span>p{
+    color: #fff;
+}
+.digitalmarketing_card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: var( --card-color);
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.digitalmarketing_main{
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.digitalmarketing_main>h6{
+    font-size: 40px;
+}
+.digitalmarketing_main_text{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.digitalmarketing_main_text>h6{
+font-size: 45px;
+font-weight: 700;
+color: #fff;
+}
+.digitalmarketing_main1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.digitalmarketing_main1_left{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0.45;
+    height: 400px;
+}
+.digitalmarketing_main1_left>img{
+    object-fit: contain;
+    height: 400px;
+}
+
+.digitalmarketing_main1_right{
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 50px;
+ 
+}
+.digitalmarketing_main1_right>h6{
+    font-size: 25px;
+    font-weight: 500;
+}
+.digitalmarketing_main1_right>p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.digitalmarketing_main1_right>img{
+    height: 150px;
+    width: 100%;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.digitalmarketing_main1_right_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+.digitalmarketing_main1_right_button_left,.digitalmarketing_main1_right_button_right{
+    font-size: 45px !important; 
+    cursor: pointer;
+}
+.digitalmarketing_main1_right_button_left{
+color: #334F9E !important;
+
+}
+.digitalmarketing_main1_right_button_right{
+    color:#61B946 !important ;
+}
+.digitalmarketing_banner_img>span>img{
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+@media(max-width:600px){
+    .digitalmarketing{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .digitalmarketing_card{
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .digitalmarketing_main{
+        width: 100%;
+    }
+    .digitalmarketing_main1{
+        flex-direction: column;
+    }
+    .digitalmarketing_main1_left{
+        flex: 1;
+    }
+    .digitalmarketing_main1_right{
+        flex: 1;
+    }
+    .digitalmarketing_main1_left>img{
+        width: 250px;
+    }
+    .digitalmarketing_banner_img{
+        top: 40px;
+    }
+    .digitalmarketing_main1_right{
+        margin-left: 0;
+    }
+    .digitalmarketing_banner_img>span>img{
+        height: 50px;
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (min-width:1180px) and (max-width:1490px){
+    .digitalmarketing_card{
+        padding: 0;
+    }
+}

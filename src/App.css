@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+::selection {
+   color: #fff;
+    background: #61b946;
+  }
+
+.app{
+    position: relative;
+}
+.popupform{
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    z-index: 10;
+}
+.popupform_button{
+    border-radius: 50% !important; 
+    background-color: #61b946 !important;
+    color: #fff !important;
+   width: 80px;
+   height: 80px;
+   border: 1px solid #fff !important;
+   z-index: 1 !important;
+}
+.popupbox{
+    background-color: #fff !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none !important;
+}
+.popupbox>h6{
+    text-align: center;
+    font-size: 25px;
+}
+.popupbox>p{
+    text-align: center;
+}
+.popupbox_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.popupbox_form>input,.popupbox_form>textarea{
+    margin-bottom: 15px;
+    width: 235px;
+    height: 35px;
+    /* text-align: center; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* border-color: lightgrey; */
+    border: none;
+    outline: none;
+
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+
+.popupbox_form_button{
+    background-color: hsl(107, 62%, 53%) !important;
+    margin-top: 10px;
+}
+
+#full-bar{
+    width:100%;
+    height: 3px;
+    background: #666;
+    position: fixed;
+  }
+  #bar-progress{
+    width: 0%;
+    height: 3px;
+    background: #cf0;
+  }
+  .error_para{
+    color: red;
+    font-size: 10px;
+  }
+  .popup_phone_input{
+    margin-bottom: 15px;
+    width: 235px;
+    height: 35px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    /* border-color: lightgrey; */
+    border: none;
+    outline: none;
+  }
+.startLoader{
+    color: #61b946 !important;
+}
+        
+.app_progress_bar{
+z-index: 999 !important;
+
+}
+.popup_textarea{
+    font-family: sans-serif;
+}
+@media screen and (max-width:600px){
+    .popupform{
+        right: 20px;
+    }
+    .popupbox{
+        width: 95% !important;
+    }
+}

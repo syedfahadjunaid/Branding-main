@@ -1,0 +1,133 @@
+.webcard7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 310px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    flex-direction: column;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: var(--card-color1);
+    cursor: pointer;
+    color: var(--main-heading);
+    transition: 0.3s ease-in-out;
+    margin: 10px;
+    
+}
+.webcard7:hover{
+    color:#fff !important;
+    background-color: #779FF1;
+    /* height: 320px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.webcard7:hover .webcard7_img>h6,.webcard7:hover .webcard7_details{
+    color: #fff !important;
+}
+.webcard7:hover .without_hover{
+display: none;
+}
+.with_hover{
+    display: none;
+}
+.webcard7:hover .with_hover{
+    display: inline;
+}
+.webcard7:hover >.with_hover{
+    display: block;
+}
+.webcard7:hover>.webcard7_img>span{
+    background-color: whitesmoke;
+}
+.webcard7_img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+}
+.webcard7_img>span{
+    padding: 10px;
+    background-color: #779FF1;
+    padding: 15px;
+    border-radius: 50%;
+  
+}
+.webcard7_img>span>img{
+    height: 60px;
+    object-fit: contain;
+   
+}
+.webcard7_img>h6{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--cardtext-color);
+}
+.webcard7_details{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;padding: 10px;
+    padding-bottom: 5px;
+    text-align: justify;
+    color: var(--cardtext-color);
+   
+}
+.webcard7_details>p{
+    font-size: 16px;
+}
+.webcard7_link{
+    text-decoration: none;
+    /* color: #000000;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; */
+    display: flex;
+    color: #779FF1;
+    margin-top: 10px;
+}
+.webcard7:hover .webcard7_link{
+    /* color: var(--main-heading); */
+    color: #fff;
+}
+
+.webcard7_link_arrow{
+    background-color: #fff;
+    color: #61B946;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    border-radius: 10px;
+    width: 25px;
+}
+.webcard7_link>span{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.webcard7:hover .webcard7_link{
+    display: flex;
+    align-items: center;
+}
+@media(max-width:600px){
+    .webcard7{
+        height:320px;
+        margin-right: 0;
+        width: 350px;
+    }
+}
+@media screen 
+  and (min-device-width: 1000px) 
+  and (max-device-width: 1280px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+    .webcard7{
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+}

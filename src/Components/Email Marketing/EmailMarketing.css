@@ -1,0 +1,111 @@
+.emailmarketing{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: var(--main-heading);
+}
+.emailmarketing>h6{
+    font-size: 45px;
+    font-weight: 500;
+    align-items: center;
+}
+.socialMedia_main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.socialMedia_main_left{
+    flex: 0.5;
+}
+.socialMedia_main_right{
+    flex: 0.4;
+}
+.email_cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+.socialMedia_main1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.socialMedia_main1>h6{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.socialMedia_main1_1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.socialMedia_main1_1_left{
+    flex: 0.45;
+}
+.socialMedia_main1_1_right{
+    flex: 0.45;
+}
+.socialMedia_main1_1_right>p{
+    margin-bottom: 15px;
+}
+.socialMedia_main2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socialMedia_main2>h6{
+    font-size: 45px;
+    font-weight: 700;
+}
+.socialMedia_main3{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.socialMedia_main3_left{
+    flex: 0.45;
+}
+.socialMedia_main3_left>ul>li{
+    font-size: 18px;
+    font-weight: 500;
+}
+.socialMedia_main3_right{
+    flex: 0.45;
+}
+.socialMedia_main_left>h6{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.socialMedia_main_left>p{
+    margin-bottom: 20px;
+}
+.socialMedia_main_left>ul{
+    margin-bottom: 20px;
+}
+.socialMedia_main_left>ul>li{
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.socialMedia_main2>p{
+    width: 60%;
+}
+@media screen and(max-width:600px){
+    .emailmarketing{
+        width: 100%;
+    }
+
+}

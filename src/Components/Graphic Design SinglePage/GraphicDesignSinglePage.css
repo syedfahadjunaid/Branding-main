@@ -1,0 +1,585 @@
+.graphicDesignSinglePage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    color: var(--main-heading);
+  }
+  .graphicDesignSinglePage_header>h5{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+  .graphicDesignSinglePage_main1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+  }
+  .graphicDesignSinglePage_main1_left{
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .graphicDesignSinglePage_main1_left>img{
+    height: 400px;
+    transition: 0.4s ease-in-out;
+  }
+  .graphicDesignSinglePage_main1_left>img:hover{
+  transform: scale(1.09);
+  } 
+ .graphicDesignSinglePage_main1_right>img{
+    transition: 0.4s ease-in-out;
+  }
+   .graphicDesignSinglePage_main1_right>img:hover{
+  transform: scale(1.09);
+  }
+  .graphicDesignSinglePage_main1_right{
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .graphicDesignSinglePage_main1_right>img{
+    height: 400px;
+  }
+  .graphicDesignSinglePage_main2{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .graphicDesignSinglePage_main2>img{
+    width: 100%;
+  }
+  .graphicDesignSinglePage_main3{
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .graphicDesignSinglePage_main3_img{
+    height: 400px;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    text-rendering: auto;
+  }
+  .graphicDesignSinglePage_subheader {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .graphicDesignSinglePage_subheader > h6 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 30px;
+  }
+  .graphicDesignSinglePage_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    
+  }
+  .graphicDesignSinglePage_logo>img{
+    height: 200px;
+    object-fit: contain;
+    margin: 10px 25px;
+  }
+  .graphicDesignSinglePage_content_one {
+    flex: 0.45;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 25px;
+  }
+  .graphicDesignSinglePage_content_one>img{
+    
+    object-fit: contain;
+    height: 300px;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .graphicDesignSinglePage_content_two {
+    flex: 0.45;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+  }
+  .graphicDesignSinglePage_content_two>img{
+   
+    object-fit: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .graphicDesignSinglePage_content_three {
+    flex: 0.45;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+  }
+  .graphicDesignSinglePage_content_three>img{
+    
+    object-fit: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .graphicDesignSinglePage_content_four {
+    flex: 0.45;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+  }
+  .graphicDesignSinglePage_content_four>img{
+   
+    object-fit: contain;
+    height: 300px;
+    width: 100%;
+  }
+  .graphicDesignSinglePage_logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 60%;
+  
+  }
+  .graphicDesignSinglePage_content_open {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 600px;
+    width: 100%;
+    position: relative;
+  }
+  .graphicDesignSinglePage_content_small{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .graphicDesignSinglePage_content_small>img{
+    height: 400px;
+    object-fit: contain;
+    
+  }
+  .graphicDesignSinglePage_content_small>img:last-child{
+    margin-top: 20px;
+  }
+  .graphicDesignSinglePage_content_details {
+    flex: 0.5;
+    width: 50%;
+    height: 100vh;
+    background-color: black;
+    /* z-index: 100; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: brown;
+  }
+  
+  .graphicDesignSinglePage_content_img {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -356px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: brown;
+  }
+  .graphicDesignSinglePage_content_img > img {
+    object-fit: contain;
+    height: 500px;
+  }
+  .slide-fwd-center {
+    -webkit-animation: slide-fwd-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1s
+      both;
+    animation: slide-fwd-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  /* ----------------------------------------------
+   * Generated by Animista on 2023-2-27 17:43:11
+   * Licensed under FreeBSD License.
+   * See http://animista.net/license for more info. 
+   * w: http://animista.net, t: @cssanimista
+   * ---------------------------------------------- */
+  
+  @-webkit-keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+      transform: translateZ(160px);
+    }
+  }
+  @keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+      transform: translateZ(160px);
+    }
+  }
+  .moadl_graphicDesignSinglePage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+  }
+  .graphicDesignSinglePage_modal {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:var(  --card-color  ) !important;
+    color: var(--main-heading);
+    width: 1000px;
+    border-radius: 10px;
+  }
+  .graphicDesignSinglePage_modal_left {
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 600px;
+  }
+  .graphicDesignSinglePage_modal_left > img {
+    object-fit: contain;
+    height: 400px;
+  }
+  .graphicDesignSinglePage_modal_right {
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+  }
+  .graphicDesignSinglePage_modal_right_header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .graphicDesignSinglePage_modal_right_header_left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .graphicDesignSinglePage_modal_right_header_left > span {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .graphicDesignSinglePage_modal_right_discription {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .graphicDesignSinglePage_modal_right_discription > p {
+    width: 400px;
+  }
+  .graphicDesignSinglePage_modal_right_discription_star {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+  }
+  .alice_modal {
+    height: 200px !important;
+    /* width: 400px !important; */
+  }
+  .alice_img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+  .graphicDesignSinglePage_modal_right_header_img_slider {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide-fwd-center {
+    -webkit-animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+      500ms infinite both;
+    animation: slide-fwd-center 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) 500ms
+      infinite both;
+  }
+  .alicecarosal_img_height{
+    height: 400px;
+  }
+  /* ----------------------------------------------
+   * Generated by Animista on 2023-3-1 13:12:5
+   * Licensed under FreeBSD License.
+   * See http://animista.net/license for more info. 
+   * w: http://animista.net, t: @cssanimista
+   * ---------------------------------------------- */
+  
+  /**
+   * ----------------------------------------
+   * animation slide-fwd-center
+   * ----------------------------------------
+   */
+  @-webkit-keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+      transform: translateZ(160px);
+    }
+  }
+  @keyframes slide-fwd-center {
+    0% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+    100% {
+      -webkit-transform: translateZ(160px);
+      transform: translateZ(160px);
+    }
+  }
+  .graphicDesignSinglePage_content>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+  
+  }
+  @media screen and (max-width: 600px) {
+    .graphicDesignSinglePage {
+      width: 100%;
+      flex-wrap: wrap;
+    }
+    .graphicDesignSinglePage_header {
+      font-size: 25px;
+    }
+    .alicecarosal_img_height{
+        height: 325px;
+      }
+    .graphicDesignSinglePage_banner {
+      width: 90%;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .graphicDesignSinglePage_main1{
+        flex-direction: column;
+    }
+    .graphicDesignSinglePage_main1_left{
+        margin-bottom: 20px;
+    } 
+    .graphicDesignSinglePage_main1_left>img:hover,.graphicDesignSinglePage_main1_right>img:hover{
+    transform: scale(1);
+    } 
+    .graphicDesignSinglePage_main1_right{
+        margin-top: 20px;
+    }
+    .graphicDesignSinglePage_main1_left>img{
+        height: 325px;
+      
+    }
+    .graphicDesignSinglePage_main1_right>img{
+        height: 325px;
+    }
+    .graphicDesignSinglePage_subheader {
+      width: 95%;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+    
+    }
+    .graphicDesignSinglePage_content {
+      width: 100%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .graphicDesignSinglePage_content_one{
+      flex: 1;
+      margin-left: 0;
+      margin-bottom: 0;
+      margin-right: 0;
+     
+    }
+    .graphicDesignSinglePage_content_two{
+      flex: 1;
+      margin-left: 0;
+      margin-bottom: 0;
+      margin-right: 0;
+    }
+    .graphicDesignSinglePage_content_three{
+      flex: 1;
+      margin-left: 0;
+      margin-bottom: 0;
+      margin-right: 0;
+    }
+    .graphicDesignSinglePage_content>div{
+      flex-direction: column;
+    }
+    .graphicDesignSinglePage_content_four{
+      flex: 1;
+      height: 250px;
+    }
+    .graphicDesignSinglePage_content_one>img,.graphicDesignSinglePage_content_two>img,.graphicDesignSinglePage_content_three>img,.graphicDesignSinglePage_content_four>img{
+    width: 250px;
+    height: 250px;
+      object-fit: contain;
+    }
+    .graphicDesignSinglePage_content>img{
+  width: 250px;
+  height: 250px;
+    }
+    .graphicDesignSinglePage_modal{
+      width: 80%;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      margin-left: 10px;
+      margin-right: 10px;
+      border: 1px solid black;
+    }
+    .graphicDesignSinglePage_modal_left{
+      display: none;
+    }
+    .graphicDesignSinglePage_modal_right{
+      flex: 1;
+      padding: 10px 15px;
+      width: 100%;
+    }
+    .graphicDesignSinglePage_modal_right_header{
+      justify-content: center
+    }
+    .graphicDesignSinglePage_modal_right_discription{
+      justify-content: center;
+    }
+    .graphicDesignSinglePage_modal_right_discription > p{
+      width: 100%;
+    }
+    .graphicDesignSinglePage_modal_right_header_right{
+      display: none;
+    }
+    .graphicDesignSinglePage_logo>img{
+      object-fit: contain;
+      height: 100px;
+    }
+    .graphicDesignSinglePage_content_small{
+     flex-direction: column;
+    }
+    .graphicDesignSinglePage_content_small>img{
+    height: 150px;
+      object-fit: contain;
+    }
+    .graphicDesignSinglePage_logo{
+      justify-content: center;
+    }
+    /* .graphicDesignSinglePage_modal_right_header_img_slider{
+      border: 1px solid black;
+    } */
+    .graphicDesignSinglePage_modal_right_header_img_slider_carousel{
+  display: none;
+    }
+    .graphicDesignSinglePage_logo {
+      width: 90%;
+      margin-top: 30px;
+    }
+    .graphicDesignSinglePage_content_four{
+      margin-left: 0;
+    }
+    .alice-carousel {
+      position: relative;
+      width: 100%;
+      margin: auto;
+      direction: ltr;
+      /* text-align: center; */
+  }
+  }
+  @media screen and (min-width:700px) and (max-height:1023px){
+    .graphicDesignSinglePage_content{
+      width: 95%;
+    }
+    .graphicDesignSinglePage_logo {
+      width: 75%;
+    }
+  }
+  @media screen and (min-width: 1024px) and (max-height: 1320px) {
+    /* iPad Pro */
+    .graphicDesignSinglePage_content{
+    width: 95%;
+  }
+  }
+  @media screen and (min-width: 1024px) and (max-height: 1310px) {
+    /* Laptop */
+    .graphicDesignSinglePage_content{
+      width: 95%;
+  }
+  }
+  @media screen and(min-width:700px) and (max-width:1500px){
+  .graphicDesignSinglePage_content{
+    width: 80%;
+  }
+  .graphicDesignSinglePage_logo {
+    width: 75%;
+  }
+  }
+  @media only screen and (min-width:601px) and (max-width:1480px){
+    .graphicdesginer_card{
+        padding: 0;
+    }
+  }
+  

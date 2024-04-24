@@ -1,0 +1,210 @@
+.payperclick{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* width: 80%; */
+    color: var(--main-heading);
+    line-height: 25px;
+}
+.payperclick_banner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.payperclick_banner_text{
+    position: absolute;
+    top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payperclick_banner_text>h6{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.payperclick_main1,.payperclick_main3{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: center;
+
+}
+.payperclick_main1_heading,.payperclick_main3_heading{
+    display: flex;
+    flex-direction: column;
+}
+.payperclick_main1_left,.payperclick_main3_left{
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payperclick_main1_left>img,.payperclick_main3_left>img{
+    object-fit: contain;
+    height: 400px;
+}
+.payperclick_main1_right,.payperclick_main3_right{
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.payperclick_main1_right>h6,.payperclick_main3_right>h6{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.payperclick_main1_right>p,.payperclick_main3_right>p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: justify;
+ 
+}
+.payperclick_card{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 35px;
+    background-color: var( --card-color);
+ 
+    margin-bottom: 20px;
+}
+.payperclick_main2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    justify-content: center;
+
+}
+.payperclick_main2_heading{
+    display: flex;
+    flex-direction: column;
+}
+.payperclick_main2_left{
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.payperclick_main2_left>img{
+    object-fit: contain;
+    height: 400px;
+}
+.payperclick_main2_right{
+    flex: 0.45;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.payperclick_main2_right>h6{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+.payperclick_main2_right>p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: justify;
+ 
+}
+.payperclick_main2_right>ul{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+@media(max-width:600px){
+    .payperclick{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .payperclick_card{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .payperclick_main1,.payperclick_main3{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .payperclick_main1_left,.payperclick_main3_left{
+        flex: 1;
+    }
+    .payperclick_main1_right,.payperclick_main3_right{
+        flex: 1;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .payperclick_main1_left>img,.payperclick_main3_left>img{
+        object-fit: contain;
+        height: 250px;
+    }
+    .payperclick_banner_text{
+        top: 50px;
+    }
+    .payperclick_main2{
+        flex-direction: column-reverse;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .payperclick_main2_left{
+        flex: 1;
+    }
+    .payperclick_main2_right{
+        flex: 1;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .payperclick_main2_left>img{
+        object-fit: contain;
+        height: 250px;
+    }
+    .payperclick_banner_text{
+        top: 50px;
+    }
+    .payperclick_banner_text>h6{
+        font-size: 20px;
+    }
+    .payperclick_main1_right>p,.payperclick_main3_right>p{
+        width: 100%;
+    }
+    .payperclick_main2_right>p{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:1480px){
+    .payperclick_card{
+        padding: 0;
+    }
+}

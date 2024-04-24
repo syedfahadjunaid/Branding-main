@@ -1,0 +1,15 @@
+.scrollbar{
+    width: 100%;
+    position: sticky;
+    top: 75px;
+    height: 3px;
+    background-color: var(--backgound-color);
+    z-index: 2;
+}
+.scrollbarline{
+    /* width: 15%; */
+    height: 5px;
+    background-color: #61B946;
+    border-radius: 1px;
+    scroll-behavior: smooth;
+}
